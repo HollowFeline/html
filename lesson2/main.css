@@ -1,23 +1,49 @@
 body{
     margin:  0;
+    width: 700px;
+    color: #ffffff;
 }
 
 .windows {
     height: 800px;
-    background: #888888;
     display: flex;
     flex-direction: column;
 }
 
-.widget {
-    background-color: blue;
-    margin: 10px 40px 10px;
-    height: 400px;
+.widgets {
+    background-color: #246abc;
+    margin: 0 40px 10px;
+    height: 250px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .txt{
     font-size: 40px;
+}
+
+.widgets-group {
+    margin: 0 40px 0;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-widget {
+    width: 30%;
+    margin: 20px 0;
+    background-color: #18467b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    background-color: #246abc;
+    margin: 10px 40px 0;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
